@@ -16,7 +16,6 @@ class Magician {
       return 'PULL RABBIT FROM TOP HAT';
   }
   performShowStopper() {
-    console.log('this', this.confidencePercentage);
       if(this.confidencePercentage != 110 || this.assistant === false) {
       return 'Oh no, this trick is not ready!';
     }
